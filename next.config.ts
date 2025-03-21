@@ -4,7 +4,7 @@ const nextConfig: NextConfig = {
   /* config options here */
   sassOptions: {},
   env: {},
-  distDir: "export",
+  distDir: "dist",
 };
 
 export default nextConfig;
