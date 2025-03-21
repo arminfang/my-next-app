@@ -1,0 +1,37 @@
+{
+  "name": "my-next-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 8000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "markdown": "node ./markdown/transform.js"
+  },
+  "dependencies": {
+    "@types/prismjs": "^1.26.5",
+    "@types/react-syntax-highlighter": "^15.5.13",
+    "bitcoinjs-lib": "^7.0.0-rc.0",
+    "canvas": "^3.1.0",
+    "ethers": "^6.13.4",
+    "github-markdown-css": "^5.8.1",
+    "next": "15.0.1",
+    "prismjs": "^1.29.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-markdown": "^9.0.3",
+    "react-syntax-highlighter": "^15.6.1",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.13",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8",
+    "sass": "^1.80.4",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5"
+  }
+}
