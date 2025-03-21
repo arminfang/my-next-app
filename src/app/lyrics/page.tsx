@@ -17,7 +17,7 @@ const Lyrics: React.FC = () => {
       <div className="min-h-100vh-56 bg-zinc-900 p-6">
         <div className="mb-4">
           <button className="btn-primary" onClick={() => setVisible(true)}>
-            Click me
+            CLICK ME
           </button>
         </div>
 
