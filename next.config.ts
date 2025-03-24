@@ -5,8 +5,8 @@ const nextConfig: NextConfig = {
   sassOptions: {},
   env: {},
   distDir: "dist",
-  basePath: "my-next-app",
-  assetPrefix: "my-next-app",
+  basePath: "/my-next-app",
+  assetPrefix: "/my-next-app",
 };
 
 export default nextConfig;
